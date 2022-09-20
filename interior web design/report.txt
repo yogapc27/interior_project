@@ -1,0 +1,848 @@
+INDEX.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <section id="home">
+        <nav>
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#about">
+                    <li>About</li>
+                </a>
+                <a href="#gallery">
+                    <li>Products</li>
+                </a>
+                <a href="#form">
+                    <li>Order</li>
+                </a>
+            </ul>
+            <a href="./admin.html"><i class="fa-solid fa-user">Yoga</i> </a>
+        </nav>
+        <button><a href="#work">Visit <i class="fa-solid fa-arrow-down"></i></a></button>
+    </section>
+    <section id="work">
+        <h1>How it Works</h1>
+        <p>interior design brings together the newest and most innovation of internatoional and canadian design</p>
+        <div class="div">
+            <div class="client">
+                <h1>520</h1>
+                <h3>happy clients</h3>
+            </div>
+            <div class="project">
+                <h1>640</h1>
+                <h3>projects</h3>
+            </div>
+            <div class="client">
+                <h1>55</h1>
+                <h3>awards</h3>
+            </div>
+            <div class="years">
+                <h1>15</h1>
+                <h3>years</h3>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="content">
+            <h4>ABOUT US</h4>
+            <h1>What is Interior Design?</h1>
+            <p>Interior design is all about how we experience spaces. It's a powerfull,essential part of our daily lives
+                and affects how we live,work,play,and even heal. Comfortable homes,functional workspaces,beautifull
+                public spaces-that's iterior design at work.</p>
+        </div>
+        <img src="./img/3rdpic.jpg" alt="">
+    </section>
+    <section id="gallery">
+        <div class="events">
+            <h1>Upcoming <br> Events</h1>
+            <div class="site">
+                <h4>sept 26-30</h4>
+                <h4>2019</h4>
+                <h4>chennai</h4>
+                <a href="https://goo.gl/maps/USQg53LRk6gnoyWy9" target="_blank"><button>visit site</button></a>
+            </div>
+            <div class="site">
+                <h4>jan 17-20</h4>
+                <h4>2019</h4>
+                <h4>Bangalore</h4>
+                <a href="https://goo.gl/maps/d2KtYc2iXUdqQsV36" target="_blank"><button>visit site</button></a>
+            </div>
+        </div>
+    </section>
+    <section id="pics">
+        <a href="./library.html" target="_blank"><img src="./img/wallpaperflare.com_wallpaper (8).jpg" alt=""></a>
+        <a href="./bedroom.html" target="_blank"><img src="./img/wallpaperflare.com_wallpaper (9).jpg" alt=""></a>
+        <a href="./livingroom.html" target="_blank"><img src="./img/interior-g084ddb6e6_1920.jpg" alt=""></a>
+        <a href="./kidsroom.html" target="_blank"><img
+                src="./img/children-s-room-with-pink-sofa-empty-white-wall-background-3d-rendering.jpg" alt=""></a>
+    </section>
+    <section id="creativity">
+        <div class="card">
+            <i class="fa-solid fa-lightbulb"></i>
+            <h3>CREATIVITY</h3>
+            <p>Design creates culture. Culture shapes values. Values determine the future.</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>QUICKNESS</h3>
+            <p>Don't worry, our team of ninjas will go out fighting to compleate your work on time.</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-award"></i>
+            <h3>QUALITY</h3>
+            <p>Be faithful to your own taste, because nothing you really like is ever out of style.+
+                +
+            </p>
+        </div>
+    </section>
+    <section id="details">
+        <h1>The Best Interior Designers Make it Look Easy</h1>
+        <div class="content">
+            <p>Desingers craft spaces that aniticipate our needs and appeal to our emotionals while pilling from a broad
+                set of skills and technical knowledge. interior design has changed dramatically since the early 20th
+                century when it was just beginning to emerge as a professions</p>
+            
+        </div>
+    </section>
+    <section id="form">
+        <form>
+            <h1>Order Form</h1>
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="number" id="no" placeholder="Phone Number" required>
+            <input type="date" id="date" required>
+            <textarea id="add" cols="30" rows="10" placeholder="Address" required></textarea>
+            <button type="submit" onclick="order()">submit</button>
+        </form>
+    </section>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <div class="footer">
+            <div class="address">
+                Bangalore School of Interior Design <br>
+                170 East 70 street
+                bangalore
+            </div>
+            <div class="calls">
+                <a href="tel:+000000000">Telephone : 29929101091</a>
+                <a href="tel:+000000000">Toll-free : 75638902922</a>
+                <a href="tel:+000000000">Fax : 7282-36272-2222</a>
+                <a href="mailto:+000000000">Email : interior@gmail.com</a>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        function order() {
+            let a = document.getElementById('name').value;
+            let b = document.getElementById('no').value;
+            let c = document.getElementById('date').value;
+            let d = document.getElementById('add').value;
+
+            if (a == '' || b == '' || c == '' || d == '') {
+            }
+            else {
+                alert("We call you back 2 days before " + c + " for furthur work");
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+BEDROOM.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>
+            BED ROOM
+        </h1>
+        <div class="div">
+            <img src="./img/bedroom/1.jpg" alt="">
+            <img src="./img/bedroom/2.jpg" alt="">
+            <img src="./img/bedroom/3.jpg" alt="">
+            <img src="./img/bedroom/4.jpg" alt="">
+            <img src="./img/bedroom/5.jpg" alt="">
+            <img src="./img/bedroom/6.jpg" alt="">
+            <img src="./img/bedroom/7.jpg" alt="">
+            <img src="./img/bedroom/8.jpg" alt="">
+        </div>   
+    </section>
+
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        body{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            height: 10vh;
+            text-align: center;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            background-color: cadetblue;
+        }
+        .div{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        img{
+            width: 50%;
+            height: 50vh; 
+            object-fit: cover;   
+        }
+    </style>
+</body>
+</html>
+
+
+
+KIDSROOM.HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>
+            KIDS ROOM
+        </h1>
+        <div class="div">
+            <img src="./img/kids/1.jpg" alt="">
+            <img src="./img/kids/2.jpg" alt="">
+            <img src="./img/kids/3.jpg" alt="">
+            <img src="./img/kids/4.jpg" alt="">
+            <img src="./img/kids/5.jpg" alt="">
+            <img src="./img/kids/6.jpg" alt="">
+            <img src="./img/kids/7.jpg" alt="">
+            <img src="./img/kids/8.jpg" alt="">
+        </div>   
+    </section>
+
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        body{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            height: 10vh;
+            text-align: center;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            background-color: cadetblue;
+        }
+        .div{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        img{
+            width: 50%;
+            height: 50vh; 
+            object-fit: cover;   
+        }
+    </style>
+</body>
+</html>
+
+
+LIBRARY.HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>
+            HOME LIBRARY
+        </h1>
+        <div class="div">
+            <img src="./img/library/1.jpg" alt="">
+            <img src="./img/library/2.jpg" alt="">
+            <img src="./img/library/3.jpg" alt="">
+            <img src="./img/library/4.jpg" alt="">
+            <img src="./img/library/5.jpg" alt="">
+            <img src="./img/library/6.jpg" alt="">
+            <img src="./img/library/7.jpg" alt="">
+            <img src="./img/library/8.jpg" alt="">
+        </div>   
+    </section>
+
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        body{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            height: 10vh;
+            text-align: center;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            background-color: cadetblue;
+        }
+        .div{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        img{
+            width: 50%;
+            height: 50vh; 
+            object-fit: cover;   
+        }
+    </style>
+</body>
+</html>
+
+
+LIVINGROOM.HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>
+           LIVING ROOM
+        </h1>
+        <div class="div">
+            <img src="./img/living room/1.webp" alt="">
+            <img src="./img/living room/2.webp" alt="">
+            <img src="./img/living room/3.webp" alt="">
+            <img src="./img/living room/4.webp" alt="">
+            <img src="./img/living room/5.jpg" alt="">
+            <img src="./img/living room/6.jpg" alt="">
+            <img src="./img/living room/7.jpg" alt="">
+            <img src="./img/living room/8.jpg" alt="">
+        </div>   
+    </section>
+
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        body{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            height: 10vh;
+            text-align: center;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            background-color: cadetblue;
+        }
+        .div{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        img{
+            width: 50%;
+            height: 50vh; 
+            object-fit: cover;   
+        }
+    </style>
+</body>
+</html>
+
+
+ADMIN.HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <section>
+        <div class="card">
+            <div class="logo">
+                <i class="fa fa-user"></i>
+            </div>
+            <div class="details" style="text-align: center;">
+                <h3>YOGA</h3>
+                <a  href="mailto:yoga272002@gmail.com">yoga272002@gmail.com</a>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th>SNO</th>
+                        <th>PRODUCT ID</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>12321</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>23134</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        *{
+            padding: 0;margin: 0;
+        }
+        section{
+            height: 100vh;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .card{
+            height: 70vh;
+            width: 30%;
+            background-color: rgba(1, 1, 1, 0.121);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0 0 10px black;
+        }
+        i{
+            font-size: 100px;
+            padding: 30px;
+            background-color: crimson;
+            border-radius: 100%;
+            color: white;
+        }
+        table,tr,th,td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</body>
+
+</html>
+
+
+STYLE.CSS
+
+
+*{
+    margin: 0;padding: 0;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif; */
+    
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-bottom: 1px solid white;
+    box-shadow: 0 0 10px white;
+    position: fixed;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/Design\ Interior.png');
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#home button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50px,-50px);
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.729);
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid black;
+    transition: 300ms;
+    position: relative;
+} 
+#home button:hover{
+
+    box-shadow: 0 0 50px 0 rgb(240, 240, 240);
+}
+
+#work{
+    width: 100%;
+    height: 50vh;
+    background-color: #212529;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#work h1{
+    font-size: 50px;
+}
+#work p{
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2rem;
+}
+#work .div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    text-transform: uppercase;
+}
+#work .div h3{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.444);
+}
+#about{
+    width: 100%;height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#about .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+#about img{
+    width: 30%;
+    height: 70vh;
+    object-fit: cover;
+    box-shadow:0 0 0px 5px #0000006e, 0 0 20px 10px #0000004f;
+}
+#about p{
+    line-height: 2rem;
+}
+#about button{
+    margin-top: 1rem;
+    padding: 15px 30px;
+    background-color: crimson;
+    color: white;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 30px;
+    transition: 500ms;
+    cursor: pointer;
+}
+#about button:hover{
+    background-color: #000;
+    box-shadow: 0px 0px 18px 0px #080808c2;
+}
+#abot h4{
+    color: #212529;
+}
+#gallery{
+    width: 100%;
+    height: 30vh;
+    background-color: crimson;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.events{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.events h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+.events .site{
+    border-left: 5px solid #fff;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+    letter-spacing: 0.5rem; 
+}
+
+.events button{
+    padding: 10px 30px;
+    background-color: crimson;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 500ms;
+}
+.events button:hover{
+    background-color: black;
+    box-shadow: 0px 0px 18px 0px #080808c2;
+}
+
+#pics{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#pics a{
+    width: 25%;
+    height: 70vh;
+}
+#pics a img{
+    
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    transition: 500ms;
+    cursor: pointer;
+    filter: grayscale(100);
+}
+#pics a img:hover{
+    filter: grayscale(0);
+}
+#creativity{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#creativity .card{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#creativity .card p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#creativity .card h3{
+    letter-spacing: 0.5rem;  
+    color: rgba(0, 0, 0, 0.673);  
+}
+#creativity .card i{
+    padding: 10px;
+    background-color: crimson;
+    border-radius: 100%;
+    width: 5%;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 11px 0 #00000096;
+}
+#details{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.055);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#details .content{
+    width: 50%;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+#details .content p{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#details h1{
+    letter-spacing: 0.5rem;
+    width: 40%;
+    text-transform: uppercase;
+    line-height: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: crimson;
+    text-shadow: -2px 0 0 rgba(220, 20, 60, 0.424);
+}
+#form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/Untitled\ design.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+form{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: crimson;
+    padding: 20px;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: -6px 6px 20px 0 #0000008f, 5px -5px 0px 0 black;;
+}
+form h1{
+    border-bottom: 2px solid white;
+    padding-bottom: 1rem;
+}
+form input{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+form textarea{
+    width: 80%;
+    height: 10vh;
+    resize: none;
+    outline: none;
+    border: 1px solid black;
+}
+form button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 300ms;
+}
+form button:hover{
+    box-shadow: 0 0 10px 0 black;
+}
+#contact{
+    width: 100%;
+    height: 50vh;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact h1{
+    font-size: 50px;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid white;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.address{
+    width: 30%;
+    line-height: 2rem;
+}
+.calls{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
